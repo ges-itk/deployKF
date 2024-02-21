@@ -71,6 +71,9 @@ argocd:
     server: https://kubernetes.default.svc
     name: ""
 
+kubernetes:
+  azure:
+    admissionsEnforcerFix: true
 
 ## --------------------------------------------------------------------------------
 ##
@@ -727,3 +730,5 @@ kubeflow_tools:
   ## --------------------------------------
   volumes:
     enabled: true
+  
+
